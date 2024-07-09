@@ -20,7 +20,7 @@ const TodoItemForm = (props: Props) => {
   }
 
   if (props.isError) {
-    return <span>Error: API error</span>
+    return <span>Loading...</span>
   }
 
   return (
